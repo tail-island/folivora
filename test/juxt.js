@@ -22,7 +22,7 @@ describe('test juxt', () => {
   });
 
   it('with iterator args #2', () => {
-    // なので、上のケースはteeを交えてこんな感じに書かないとダメ。
+    // なので、上のケースは、teeを交えたこんな感じで実行されています。
 
     const [x, iter] = map((f, coll) => f(coll), [first, next], tee(2, range(3)));
 

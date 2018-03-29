@@ -8,10 +8,10 @@ export default function reduce(...args) {
   const [f, val, coll] = (() => {
     switch (args.length) {
     case 0:
-      throw "Invalid arguments";
+      throw 'Invalid arguments';
 
     case 1:
-      throw "Invalid arguments";
+      throw 'Invalid arguments';
 
     case 2:
       return cons(args[0], juxt(first, next)(args[1]));
