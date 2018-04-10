@@ -1,4 +1,4 @@
-export default function conj(coll, x) {
+export default function* conj(coll, x) {
   for (const y of coll) {
     yield y;
   }

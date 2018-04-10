@@ -1,3 +1,5 @@
 export default function apply(f, ...args) {
-  return (moreArgs) => f(...args, ...moreArgs);
+  return (moreArgs) => {
+    return f(...args, ...moreArgs);
+  };
 }

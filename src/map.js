@@ -9,6 +9,6 @@ export default function* map(f, ...colls) {
       break;
     }
 
-    yield(f(...nexts.map(next => next.value)));
+    yield (f(...nexts.map(next => next.value)));
   }
 }
