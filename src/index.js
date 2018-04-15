@@ -22,6 +22,7 @@ export {default as keep}         from './keep';
 export {default as map}          from './map';
 export {default as mapcat}       from './mapcat';
 export {default as mapIndexed}   from './mapIndexed';
+export {default as maxKey}       from './maxKey';
 export {default as memoize}      from './memoize';
 export {default as next}         from './next';
 export {default as partial}      from './partial';
