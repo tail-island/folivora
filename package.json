@@ -9,7 +9,7 @@
     "lib"
   ],
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   },
   "babel": {
     "presets": [
@@ -17,7 +17,7 @@
         "env",
         {
           "targets": {
-            "node": 6
+            "node": 8
           }
         }
       ]
